@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 24px;
+    justify-content: center; 
+}
+
+.message{
+    text-align: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: gray;
+    font-size: 24px;
+    margin: 24px 0 0 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.card-footer {
+    margin-top: auto;
+}
+
+.card-title {
+    font-size: 20px;
+    min-height: 100px;
+}
+
+.hidden {
+    display: none !important;
+}
